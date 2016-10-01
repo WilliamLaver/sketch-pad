@@ -1,18 +1,41 @@
+body {
+	background-color: green;
+}
+
 .square {
-	height: 35px; width: 35px;
+	/*height: 20px; width: 20px;*/
 	background-color: blue;
 	display: inline-block;
 	margin: auto;
 	float: left;
 }
 
-.square:hover{
+.red {
 	background-color: red;
 }
 
+.yellow{
+	background-color: yellow;
+}
+
+.button_panel {
+	height: 30px; width: 350px;
+	background-color: grey;
+	margin: -10px auto 0;
+	padding: 10px 0 0px 200px;
+}
+
+button {
+
+}
+
+.clicked {
+	box-shadow: inset 0px 0px 5px 3px rgba(0,0,0,0.64);
+	background-color: #9e98e6;
+}
+
 .container {
-	height: 575px;
 	margin: auto;
-	background-color: green;
-	padding-left:350px;
+	height: 540px; width: 540px;
+	border: 5px solid red;
 }
